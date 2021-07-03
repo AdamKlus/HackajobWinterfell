@@ -25,24 +25,24 @@ Find the fastest way to victory, no matter which team wins
 
 Example: 
 
-A Dragon(600 damage) attacks a White Lord(defence 100)
-The Dragon has 500 damage remaining and can strike 5 more White Lords in the same turn
-The White Lord dies
+A Dragon(600 damage) attacks a White Lord(defence 100) 
+The Dragon has 500 damage remaining and can strike 5 more White Lords in the same turn 
+The White Lord dies 
 How long will the battle last(how many turns) and who will emerge victorious ?
    
-INPUT
-string first_strike_army_name
-int no_of_dragons
+INPUT 
+string first_strike_army_name 
+int no_of_dragons 
 int no_of_white_lords
 
-OUTPUT
+OUTPUT 
 string result(formatted as army_name | turns)
  
-EXAMPLE 1
-Input: "Seven Kingdom Army", 4, 5
+EXAMPLE 1 
+Input: "Seven Kingdom Army", 4, 5 
 Output: White Walker Army | 6
 
 
-EXAMPLE 2
-Input: "Seven Kingdom Army", -1, 5
+EXAMPLE 2 
+Input: "Seven Kingdom Army", -1, 5 
 Output: Invalid parameter provided
