@@ -47,7 +47,7 @@ class Solution:
 		no_of_infantry = 5000
 		no_of_walkers = 10000
 
-		if float(no_of_dragons).is_integer and no_of_dragons > 0 and float(no_of_white_lords).is_integer and no_of_white_lords > 0:
+		if type(no_of_dragons) == int and no_of_dragons > 0 and type(no_of_white_lords) == int and no_of_white_lords > 0:
 
 			if first_strike_army_name == "Seven Kingdom Army":
 
@@ -101,4 +101,4 @@ class Solution:
 		return result
 
 a = Solution()
-print(a.run("Seven Kingdom Army",2,6))
+print(a.run("Seven Kingdom Army",2,1))
