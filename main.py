@@ -101,4 +101,4 @@ class Solution:
 		return result
 
 a = Solution()
-print(a.run("Seven Kingdom Army",2,1))
+print(a.run("Seven Kingdom Army",4,5))
